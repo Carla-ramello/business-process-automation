@@ -27,6 +27,7 @@ The script:
 
 ## Project structure
 
+```text
 business-process-automation/
 ├── data/
 │   ├── input.xlsx
@@ -36,6 +37,7 @@ business-process-automation/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Business rule
 
@@ -61,3 +63,10 @@ Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the automation:
+
+```bash
+python src/main.py
+```
